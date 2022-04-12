@@ -4,7 +4,7 @@ main()
 {
     float A = 0, B = 0, i, J, z[1760];
     char b[1760];
-    printf("\x1b[2J");
+    printf("\x1b[2");
     for (;;)
     {
         memset(b, 32, 1760);
